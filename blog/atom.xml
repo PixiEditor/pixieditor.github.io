@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pixieditor.net/blog</id>
     <title>PixiEditor Blog</title>
-    <updated>2021-06-06T00:00:00.000Z</updated>
+    <updated>2021-07-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pixieditor.net/blog"/>
     <subtitle>PixiEditor Blog</subtitle>
     <icon>https://pixieditor.net/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Dynamic bitmaps]]></title>
+        <id>Dynamic bitmaps</id>
+        <link href="https://pixieditor.net/blog/2021/07/22/dynamic-bitmaps"/>
+        <updated>2021-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dynamic bitmap is a solution which made PixiEditor work multiple times faster, decreased RAM usage 10 times, and solved memory leak problems.  This article will explain what it is and how it works.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Launching PixiEditor.net]]></title>
         <id>Launching PixiEditor.net</id>

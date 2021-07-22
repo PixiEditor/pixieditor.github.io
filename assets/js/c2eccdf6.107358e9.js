@@ -1,0 +1,1 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[293],{6353:e=>{"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Dynamic bitmaps","permalink":"/blog/2021/07/22/dynamic-bitmaps"},{"title":"Launching PixiEditor.net","permalink":"/blog/2021/06/06/pixieditor-net-launch"}]}')}}]);
