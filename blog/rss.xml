@@ -4,9 +4,16 @@
         <title>PixiEditor Blog</title>
         <link>https://pixieditor.net/blog</link>
         <description>PixiEditor Blog</description>
-        <lastBuildDate>Thu, 22 Jul 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[How to write a Todo list app in 10 lines of code in pure C# [NO DEPENDENCIES]]]></title>
+            <link>https://pixieditor.net/blog/2021/08/06/todo-csharp</link>
+            <guid>How to write a Todo list app in 10 lines of code in pure C# [NO DEPENDENCIES]</guid>
+            <pubDate>Fri, 06 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[This tutorial shows how to write to do app in 10 lines of code in pure C#.]]></description>
+        </item>
         <item>
             <title><![CDATA[Dynamic bitmaps]]></title>
             <link>https://pixieditor.net/blog/2021/07/22/dynamic-bitmaps</link>

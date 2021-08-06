@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pixieditor.net/blog</id>
     <title>PixiEditor Blog</title>
-    <updated>2021-07-22T00:00:00.000Z</updated>
+    <updated>2021-08-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pixieditor.net/blog"/>
     <subtitle>PixiEditor Blog</subtitle>
     <icon>https://pixieditor.net/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[How to write a Todo list app in 10 lines of code in pure C# [NO DEPENDENCIES]]]></title>
+        <id>How to write a Todo list app in 10 lines of code in pure C# [NO DEPENDENCIES]</id>
+        <link href="https://pixieditor.net/blog/2021/08/06/todo-csharp"/>
+        <updated>2021-08-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This tutorial shows how to write to do app in 10 lines of code in pure C#.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Dynamic bitmaps]]></title>
         <id>Dynamic bitmaps</id>
