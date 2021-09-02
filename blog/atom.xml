@@ -8,8 +8,8 @@
     <subtitle>PixiEditor Blog</subtitle>
     <icon>https://pixieditor.net/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[How to write a Todo list app in 10 lines of code in pure C# [NO DEPENDENCIES]]]></title>
-        <id>How to write a Todo list app in 10 lines of code in pure C# [NO DEPENDENCIES]</id>
+        <title type="html"><![CDATA[How to write a Todo list app in 10 lines of code in pure C# [no dependencies]]]></title>
+        <id>How to write a Todo list app in 10 lines of code in pure C# [no dependencies]</id>
         <link href="https://pixieditor.net/blog/2021/08/06/todo-csharp"/>
         <updated>2021-08-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This tutorial shows how to write to do app in 10 lines of code in pure C#.]]></summary>
