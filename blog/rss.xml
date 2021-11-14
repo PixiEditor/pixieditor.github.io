@@ -4,9 +4,16 @@
         <title>PixiEditor Blog</title>
         <link>https://pixieditor.net/blog</link>
         <description>PixiEditor Blog</description>
-        <lastBuildDate>Fri, 06 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Devlog 1 v0.1.7]]></title>
+            <link>https://pixieditor.net/blog/2021/11/13/devlog1</link>
+            <guid>Devlog 1 v0.1.7</guid>
+            <pubDate>Sat, 13 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Current status of PixiEditor version v0.1.7 development.]]></description>
+        </item>
         <item>
             <title><![CDATA[How to write a Todo list app in 10 lines of code in pure C# [no dependencies]]]></title>
             <link>https://pixieditor.net/blog/2021/08/06/todo-csharp</link>
