@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[2659],{688:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"pixieditor","count":1,"permalink":"/blog/tags/pixieditor"}')}}]);
