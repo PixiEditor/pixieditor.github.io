@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[7096],{1724:(e,a,t)=>{t.r(a),t.d(a,{default:()=>m});var r=t(7294),c=t(7961);const m=function(e){return r.createElement(c.Z,{title:"Roadmap"},r.createElement("div",{className:"roadmap"},r.createElement("img",{src:"/img/Roadmap.png",alt:"roadmap"})))}}}]);
