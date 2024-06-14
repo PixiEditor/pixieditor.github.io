@@ -4,18 +4,18 @@
         <title>PixiEditor Blog</title>
         <link>https://pixieditor.net/blog</link>
         <description>PixiEditor Blog</description>
-        <lastBuildDate>Wed, 08 May 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Jun 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
             <title><![CDATA[PixiEditor Devlog 3]]></title>
-            <link>https://pixieditor.net/blog/2024/05/08/devlog3</link>
-            <guid>https://pixieditor.net/blog/2024/05/08/devlog3</guid>
-            <pubDate>Wed, 08 May 2024 00:00:00 GMT</pubDate>
+            <link>https://pixieditor.net/blog/2024/06/14/devlog3</link>
+            <guid>https://pixieditor.net/blog/2024/06/14/devlog3</guid>
+            <pubDate>Fri, 14 Jun 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Devlog 3 for PixiEditor 2.0]]></description>
             <content:encoded><![CDATA[<p>Long time no see! I've been working on PixiEditor 2.0 for a while now, and I have some updates to share with you.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="state-of-the-project">State of the project<a href="https://pixieditor.net/blog/2024/05/08/devlog3#state-of-the-project" class="hash-link" aria-label="Direct link to State of the project" title="Direct link to State of the project">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="state-of-the-project">State of the project<a href="https://pixieditor.net/blog/2024/06/14/devlog3#state-of-the-project" class="hash-link" aria-label="Direct link to State of the project" title="Direct link to State of the project">​</a></h2>
 <p>I am happy to announce, that I'll be working on PixiEditor full-time from now on. I resigned from a juicy programmer salary, so I can work on PixiEditor every day and bring the greatest 2D app to life.
 If you'd like to support me, you can do so by <a href="https://pixieditor.net/donate">buying a supporter pack</a>.</p>
 <p>As you may know, we announced PixiEditor 2.0 about 4 months ago and promised exciting features like animations, layer nodes, infinite canvas, and extensions.</p>
@@ -24,26 +24,26 @@ If you'd like to support me, you can do so by <a href="https://pixieditor.net/do
 Up until now, PixiEditor was built in something called WPF, it is a framework for building Windows applications. It's great, but it's not cross-platform. We've decided to switch to AvaloniaUI which solves this problem.</p>
 <p>And oh boy, what a journey it was. I mean, it still is. Besides replicating all of the UI elements, behaviors, and features, I allowed myself to
 sidetrack a little bit to improve various elements from the WPF version, fix old bugs, and prepare everything for new features, mostly extensions.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-look-and-feel">New look and feel<a href="https://pixieditor.net/blog/2024/05/08/devlog3#new-look-and-feel" class="hash-link" aria-label="Direct link to New look and feel" title="Direct link to New look and feel">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-look-and-feel">New look and feel<a href="https://pixieditor.net/blog/2024/06/14/devlog3#new-look-and-feel" class="hash-link" aria-label="Direct link to New look and feel" title="Direct link to New look and feel">​</a></h2>
 <p>The new UI is not only refreshed but also more consistent, prepared for creating custom themes, and more user-friendly. Here's a sneak peek:</p>
 <p><img loading="lazy" alt="PixiEditor 2.0 UI" src="https://pixieditor.net/assets/images/newUI-88788d53e9bfee0adba7d219aea55366.png" width="1928" height="1040" class="img_ev3q"></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="icons">Icons<a href="https://pixieditor.net/blog/2024/05/08/devlog3#icons" class="hash-link" aria-label="Direct link to Icons" title="Direct link to Icons">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="icons">Icons<a href="https://pixieditor.net/blog/2024/06/14/devlog3#icons" class="hash-link" aria-label="Direct link to Icons" title="Direct link to Icons">​</a></h3>
 <p>We've remade a lot of the icons of the app so they are more consistent and look better, we've also changed the way how they are stored and loaded, previously all of them were PNGs, so
 scaling was visible on some of them. Now we use SVGs, which are vector graphics, so they look sharp at any size. Here's a comparison:</p>
 <p>Old:</p>
 <img src="https://pixieditor.net/img/blog-posts/devlog3/oldToolset.png" alt="Old icons" style="width:100px">
 <p>New:</p>
 <img src="https://pixieditor.net/img/blog-posts/devlog3/newToolset.png" alt="New icons" style="width:100px">
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="new-docking-system">New docking System<a href="https://pixieditor.net/blog/2024/05/08/devlog3#new-docking-system" class="hash-link" aria-label="Direct link to New docking System" title="Direct link to New docking System">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="new-docking-system">New docking System<a href="https://pixieditor.net/blog/2024/06/14/devlog3#new-docking-system" class="hash-link" aria-label="Direct link to New docking System" title="Direct link to New docking System">​</a></h3>
 <p>In PixiEditor WPF's version, we used a ready-made solution called AvalonDock, which was nice but had some limitations. There is something similar to AvalonDock in AvaloniaUI available, but after playing with it for a while, I couldn't achieve the desired
 effect. As a result, I've decided to write my own system, it works exactly the way I want it to, and it's much more flexible. Here's a demo:</p>
 <video src="/videos/devlog3/docking.mp4" style="width:100%" autoplay="" muted=""></video>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="animations">Animations<a href="https://pixieditor.net/blog/2024/05/08/devlog3#animations" class="hash-link" aria-label="Direct link to Animations" title="Direct link to Animations">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="animations">Animations<a href="https://pixieditor.net/blog/2024/06/14/devlog3#animations" class="hash-link" aria-label="Direct link to Animations" title="Direct link to Animations">​</a></h2>
 <p>Animations are one of the most anticipated features of PixiEditor 2.0. And we've begun working on them! We're fairly early in the development process, but we already have something to show.</p>
 <p>Here's a funky little animation I've made using PixiEditor 2.0:</p>
 <video src="/videos/devlog3/anim.mp4" style="width:100%" autoplay="" muted="" loop=""></video>
 <p>So far we built basic support for frame-by-frame animations, however, we plan to add property keyframes, like opacity, position, rotation, etc.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="extensions">Extensions<a href="https://pixieditor.net/blog/2024/05/08/devlog3#extensions" class="hash-link" aria-label="Direct link to Extensions" title="Direct link to Extensions">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="extensions">Extensions<a href="https://pixieditor.net/blog/2024/06/14/devlog3#extensions" class="hash-link" aria-label="Direct link to Extensions" title="Direct link to Extensions">​</a></h2>
 <p>This is so far the most challenging part of the project, it influences almost every other aspect of the app. We want to make PixiEditor as extensible as possible, but also keep it simple, easy to use, and secure.</p>
 <p>There are a few key elements that describe my philosophy of extensions:</p>
 <ul>
@@ -56,7 +56,7 @@ effect. As a result, I've decided to write my own system, it works exactly the w
 <p>All thanks to the amazing piece of technology called WASI. It stands for "WebAssembly System Interface", and don't get fooled by the name, it's not just for the web.
 I'll not go into technical details here, but in short, it allows running pieces of code in a secure, isolated environment, and it doesn't care about the language it's originally written in.</p>
 <p>The blog post about it soon! A little more technical one, so if you're interested in this topic, stay tuned.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's next?<a href="https://pixieditor.net/blog/2024/05/08/devlog3#whats-next" class="hash-link" aria-label="Direct link to What's next?" title="Direct link to What's next?">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's next?<a href="https://pixieditor.net/blog/2024/06/14/devlog3#whats-next" class="hash-link" aria-label="Direct link to What's next?" title="Direct link to What's next?">​</a></h2>
 <p>We plan to share devlogs roughly every 2 weeks, so you can stay up to date with the project.
 We're almost fully focusing on animations right now, closed alpha will be available in the following months, so stay tuned and make sure to <a href="https://pixieditor.net/v2">sign up for the newsletter</a> to get early access to PixiEditor 2.0.</p>
 <p>Have a great day and see you in two weeks!</p>]]></content:encoded>
