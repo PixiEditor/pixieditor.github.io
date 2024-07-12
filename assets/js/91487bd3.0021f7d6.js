@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[9804],{266:e=>{e.exports=JSON.parse('{"label":"pixieditor2.0","permalink":"/blog/tags/pixieditor-2-0","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);
